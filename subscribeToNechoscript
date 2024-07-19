@@ -219,8 +219,8 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
             if Settings.rewrittenmain.NOTIF == true then
                 Plr = getClosestPlayerToCursor()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Spared",
-                    Text = "this nigga done for": "..tostring(Plr.Character.Humanoid.DisplayName),
+                    Title = "bruh why did you let him live",
+                    Text = "Spared: "..tostring(Plr.Character.Humanoid.DisplayName),
                     Duration = 1.5
                 })
             end
@@ -229,7 +229,7 @@ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
             enabled = true
             if Settings.rewrittenmain.NOTIF == true then
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "ZolexLocked",
+                    Title = "this nigga done for",
                     Text = "ZolexVictim: "..tostring(Plr.Character.Humanoid.DisplayName),
                     Duration = 2.5
                 })
