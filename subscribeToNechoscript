@@ -105,7 +105,7 @@ Settings = {
 
 local SelectedPart = "HumanoidRootPart"
 local Prediction = true
-local PredictionValue = 0.1357363
+local PredictionValue = 0.135635
 
 local CC = game:GetService("Workspace").CurrentCamera
 local Plr;
